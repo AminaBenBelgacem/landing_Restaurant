@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+}
+ul {
+  list-style: none;
+}
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container{
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container{
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Start Header */
+header
+{
+  padding:20px;
+position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+background-color: #f9e9dc;
+  color: white;
+}
+header img
+{
+   width: 93px;
+    height: 59px; 
+}
+header h2
+{
+  color: #fb9f09;
+}
+header .logo span
+{
+  color: #C06B3E;
+}
+header .container 
+{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+header ul
+{
+  display: flex;
+  gap: 20px;
+}
+
+header a 
+{
+  text-decoration: none;
+  color: #ccc;
+}
+header a:hover{
+  color: black;
+  border-bottom: 2px solid black;
+  border
+}
+
+header h3
+{
+  font-size:25px;
+}
+header button
+{
+color: white;
+    border-radius: 30px;
+    height: 36px;
+    width: 108px;
+    background-color: #fb9f09;
+    /* border-radius-left: 41%; */
+    border: transparent;
+}
+
+/* end header */
+
+/* Start landing */
+.landing
+{
+  padding-top: 30px;
+   min-height: 100vh;
+  background-image: url("../images/back.png");
+  background-size: cover;
+  position: relative;
+  color: black;
+}
+.landing .container
+{
+  
+}
+.landing .container .text
+{
+  position: absolute;
+    top: 50%;
+  width:50%;
+
+}
+@media (max-width: 768px) {
+  .landing .container
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .landing .container .text{
+    text-align: center;
+    top: 50%;
+
+  }
+}
+.landing .text h3
+{
+font-size: 33px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.landing .text p
+{
+font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.landing span
+{
+    color:  #fb9f09 ;
+}
+.landing .text button
+{
+  padding: 15px;
+  border-radius: 30px;
+  background-color:#fb9f09;
+  border: transparent;
+}
+.landing .text button:hover
+{
+  color: #fff;
+  background: #C06B3E;
+
+}
+
+
+
